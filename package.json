@@ -32,5 +32,6 @@
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "socket.io": "^2.0.4"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
