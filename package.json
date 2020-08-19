@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-starter",
+  "version": "1.0.0",
+  "description": "A NodeJS Diploma web servers",
+  "author": "dosxanzada",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "init": "node ./controllers/init",
+    "debug": "cross-env PORT=3333 SECRET=GREEN_BUS nodemon --inspect index.js"
+  },
+  "keywords": [],
+  "author": "dosxanzada",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "nodemon": "^1.14.7"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-jwt": "^5.3.1",
+    "express-validator": "^5.0.3",
+    "helmet": "^3.9.0",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.0-rc1",
+    "morgan": "^1.9.0",
+    "multer": "^1.3.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^2.0.4"
+  }
+}
